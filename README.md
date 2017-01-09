@@ -1,5 +1,5 @@
-Tutorial on basic communication in YARP using Port and BufferedPort
-===================================================================
+Tutorial on basic communication in YARP
+=======================================
 
 This tutorial covers basic communication in YARP using Port and BufferedPort. After doing this tutorial you will be expected to know the concept of data-flow (i.e., streaming) ports, synchronous and asynchronous communication.
 
