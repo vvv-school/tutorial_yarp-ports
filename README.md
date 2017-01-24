@@ -23,4 +23,30 @@ will guide you to the use
  $ make
  ```
 
+# How to run the tutorial 
+- make sure yarp server is running (`yarp where`), if not open a terminal and run it :
+```
+$ yarpserver --write 
+```
+- open another terminal and switch to the build directory and run the `tutorial_yarp-port`: 
+
+```
+$ ./tutorial_yarp-port
+```
+
+- in another terminal run: 
+```
+$ yarp write /w 
+```
+- in another terminal run : 
+```
+$ yarp read /r 
+```
+- connect the ports: 
+```
+$ yarp connect /w /relay/in
+$ yarp connect /relay/out /r 
+```
+- write something in the terminal where you have launched `yarp write` and you should be able to see the message in the terminal belong to `yarp read`
+
 
