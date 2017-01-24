@@ -20,7 +20,7 @@ int main(int argc, const char **argv) {
     }
 
     Port outPort;
-    // open the outut port 
+    // open the outut port "/relay/out"
     // ...
 
     int counter = 0;
