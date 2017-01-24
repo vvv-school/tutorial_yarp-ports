@@ -10,8 +10,17 @@ will guide you to the use
 - [the main YARP command-line interfaces] (http://www.yarp.it/yarp.html)
 
 
-# Tutorial
-...
+# How to build the tutorial 
+ - Open a terminal and switch to the folder which contains C++ code (e.g., `tutorial_yarp-ports/port/`)
+ - create a build directory 
+ - compile and build 
+ 
+ ```
+ $ cd tutorial_yarp-ports/port/
+ $ mkdir build
+ $ cd build
+ $ cmake ../
+ $ make
+ ```
 
-# [How to complete the assignment](...)
-...
+
