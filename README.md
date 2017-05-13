@@ -5,9 +5,9 @@ This tutorial covers basic communication in YARP using Port and BufferedPort. Af
 
 
 will guide you to the use
-- [yarp::os::Port] (http://www.yarp.it/classyarp_1_1os_1_1Port.html)
-- [yarp::os::BufferedPort] (http://www.yarp.it/classyarp_1_1os_1_1BufferedPort.html)
-- [the main YARP command-line interfaces] (http://www.yarp.it/yarp.html)
+- [yarp::os::Port](http://www.yarp.it/classyarp_1_1os_1_1Port.html)
+- [yarp::os::BufferedPort](http://www.yarp.it/classyarp_1_1os_1_1BufferedPort.html)
+- [the main YARP command-line interfaces](http://www.yarp.it/yarp.html)
 
 
 # How to build the tutorial
