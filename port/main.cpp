@@ -14,7 +14,7 @@ int main(int argc, const char **argv) {
     // initialize yarp network
     Network yarp;
 
-    // open the outut port "/relay/out"
+    // open the output port "/relay/out"
     Port outPort;
     if (!outPort.open("/relay/out")) {
         yError() << "cannot open the output port";

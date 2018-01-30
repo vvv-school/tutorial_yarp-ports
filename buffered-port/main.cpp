@@ -20,7 +20,7 @@ int main(int argc, const char **argv) {
     }
 
     BufferedPort<Bottle> outPort;
-    // open the outut port 
+    // open the output port
     // ...
 
     int counter = 0;
@@ -28,9 +28,7 @@ int main(int argc, const char **argv) {
         counter++;
 
         yInfo()<<" waiting for input...";
-        Bottle input, output;
-
-        // read from input port 
+        // read from input port
         // ...
 
         // prepare the output data 
