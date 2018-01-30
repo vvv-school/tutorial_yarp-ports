@@ -41,7 +41,7 @@ int main(int argc, const char **argv) {
         // prepare the output data
         Bottle output;
         output = input;
-        output.addString("Hello yarp!");
+        output.addString("hello from relay!");
         output.addInt32(counter);
 
         // write the output data
