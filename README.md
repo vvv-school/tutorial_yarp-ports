@@ -15,7 +15,7 @@ will guide you to the use
  - create a build directory
  - compile and build
 
- ```
+ ```bash
  $ cd tutorial_yarp-ports/port/
  $ mkdir build
  $ cd build
@@ -25,25 +25,25 @@ will guide you to the use
 
 # How to run the tutorial
 - make sure yarp server is running (`yarp where`), if not open a terminal and run it :
-```
+```bash
 $ yarpserver --write
 ```
 - open another terminal and switch to the build directory and run the `tutorial_yarp-port`:
 
-```
+```bash
 $ ./tutorial_yarp-port
 ```
 
 - in another terminal run:
-```
+```bash
 $ yarp write /w
 ```
 - in another terminal run :
-```
+```bash
 $ yarp read /r
 ```
 - connect the ports:
-```
+```bash
 $ yarp connect /w /relay/in
 $ yarp connect /relay/out /r
 ```
