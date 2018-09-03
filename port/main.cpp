@@ -27,7 +27,7 @@ int main(int argc, const char **argv) {
 
         // prepare the output data
         Bottle output;
-        //output.addInt(counter);
+        //output.addInt32(counter);
         // output.addString(...)
         // ...
 

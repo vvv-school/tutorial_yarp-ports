@@ -32,7 +32,7 @@ int main(int argc, const char **argv) {
         // ...
 
         // prepare the output data 
-        // output.addInt(counter);
+        // output.addInt32(counter);
         // output.addString(...)
         // ...
 
